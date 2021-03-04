@@ -1,0 +1,77 @@
+{
+  "name": "Base",
+  "version": "0.1.0",
+  "summary": "基础开发库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangshuoxing/Base",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangshuoxing": "yleson@besteam.cn"
+  },
+  "source": {
+    "git": "https://github.com/huangshuoxing/Base.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Base/Classes/**/*",
+  "resources": [
+    "Base/Assets/*"
+  ],
+  "dependencies": {
+    "SwiftMediator": [
+
+    ],
+    "WCDB.swift": [
+
+    ],
+    "Moya": [
+      "14.0.0"
+    ],
+    "HandyJSON": [
+      "5.0.2"
+    ],
+    "Kingfisher": [
+      "6.1.1"
+    ],
+    "MJRefresh": [
+      "3.5.0"
+    ],
+    "SnapKit": [
+      "5.0.1"
+    ],
+    "DZNEmptyDataSet": [
+      "1.8.1"
+    ],
+    "SVProgressHUD": [
+      "2.2.5"
+    ],
+    "NVActivityIndicatorView": [
+      "5.1.1"
+    ],
+    "IQKeyboardManagerSwift": [
+      "6.3.0"
+    ],
+    "BRPickerView": [
+      "2.7.3"
+    ],
+    "MonkeyKing": [
+      "2.1.0"
+    ],
+    "Presentr": [
+      "1.9"
+    ],
+    "Lantern": [
+      "1.1.2"
+    ],
+    "ZLPhotoBrowser": [
+      "4.1.7"
+    ]
+  },
+  "swift_version": "5.0"
+}
