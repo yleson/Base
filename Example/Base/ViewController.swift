@@ -44,7 +44,8 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        Page.jump(to: Router.Example)
+//        Page.jump(to: Router.Example)
+        MapKitOpen.checkMapAppInPhoneAndJumpInto(targetLat: 23.4221, targetLong: 124.12314, targetName: "标题", VC: self)
     }
 
 }
