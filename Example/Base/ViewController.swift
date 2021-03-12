@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         
         print(App.kScreenW)
         
+        print(UserDefaults.standard.string(forName: UserDefaults.Name.isFirst))
+        print(UserDefaults.standard.string(forName: UserDefaults.Name.userId))
         
 //        let router = Router(rawValue: "ExampleController")
 //        print(router)
@@ -55,3 +57,7 @@ class ViewController: UIViewController {
 //extension UIViewController: ViewControllerIntent {
 //
 //}
+
+extension UserDefaults.Name {
+    static let userId: UserDefaults.Name = "userId"
+}
