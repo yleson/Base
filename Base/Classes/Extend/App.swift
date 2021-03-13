@@ -56,3 +56,12 @@ public struct App {
     }
     
 }
+
+
+/// 打印日志
+public func print<T>(log: T, file: String = #file, method: String = #function, line: Int = #line) {
+    #if DEBUG
+    let file = (file as NSString).lastPathComponent
+    print("\n[\(file)]_[\(method)]_[行: \(line)]:\n\(log)\n")
+    #endif
+}
