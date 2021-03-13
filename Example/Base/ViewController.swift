@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        #if DEBUG
+        Environment.shared.start(target: .kDebug)
+        #endif
+        
         print("13726224442".tools.isPhoneNumber)
         print("541243".tools.isPurnInt)
         print("15m12n412".tools.subString(2))

@@ -471,9 +471,11 @@
 		9995186C6E098EAF59F995DCCAF99E96 /* BuiltInBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6048F24B772B78C21247A6076EF23C /* BuiltInBasicType.swift */; };
 		999C8C683AAA46697C9C3C702A10E61A /* fts3_tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 20CA95120443BE1235FE8A0C5DD6945F /* fts3_tokenizer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F5C7F0D9F86BB808D012C0ACAAD1 /* ParameterEncoder.swift */; };
+		9A3448A128236C8E00269E97 /* EnviromentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3448A028236C8E00269E97 /* EnviromentButton.swift */; };
 		9A48C3DA281BC23600A731F2 /* UserDefaultsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C3D9281BC23600A731F2 /* UserDefaultsCache.swift */; };
 		9A595E1EC0867FD228718714083933E6 /* CoreStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF091032304886F9426E492441327F /* CoreStatement.swift */; };
 		9AA2559C282366F7008D7070 /* DatabaseCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2559B282366F7008D7070 /* DatabaseCache.swift */; };
+		9AA2559F28236B23008D7070 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2559E28236B23008D7070 /* Enviroment.swift */; };
 		9AA3903AF0A8BABFF126A13861DD90B5 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC4119FF619358A76A20E2610D2C1F /* MJRefreshNormalHeader.m */; };
 		9AC7B708281BB0D400E35DEE /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B707281BB0D400E35DEE /* WaterfallLayout.swift */; };
 		9AC7B70A281BB28D00E35DEE /* HorizonPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7B709281BB28D00E35DEE /* HorizonPageLayout.swift */; };
@@ -1595,9 +1597,11 @@
 		98D46A4989022785DF5C89F0C3EE0AA5 /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
 		9A039E0030D467ABB5DEB9E0E4592A7F /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
 		9A128BE4731B9270E2B2C7FEF64104D7 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = src/sqlite3ext.h; sourceTree = "<group>"; };
+		9A3448A028236C8E00269E97 /* EnviromentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentButton.swift; sourceTree = "<group>"; };
 		9A48C3D9281BC23600A731F2 /* UserDefaultsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCache.swift; sourceTree = "<group>"; };
 		9A6EA743762F69550EF3FE141BF65835 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		9AA2559B282366F7008D7070 /* DatabaseCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseCache.swift; sourceTree = "<group>"; };
+		9AA2559E28236B23008D7070 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		9AC7B707281BB0D400E35DEE /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		9AC7B709281BB28D00E35DEE /* HorizonPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonPageLayout.swift; sourceTree = "<group>"; };
 		9ACB6EF8EAA1F83A803128DBAAAAEBC6 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/MonkeyKing/Networking.swift; sourceTree = "<group>"; };
@@ -2182,6 +2186,7 @@
 		1393070E538BEEE966EAD66E9C42461D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				9AA2559D28236B12008D7070 /* Environment */,
 				9A48C3D8281BC1FF00A731F2 /* Storage */,
 				9AEFEFA0281B8713002C3BE0 /* Layout */,
 				9AEFEF9B281A9496002C3BE0 /* MapGuide */,
@@ -2971,6 +2976,16 @@
 			);
 			name = Storage;
 			path = Base/Classes/Storage;
+			sourceTree = "<group>";
+		};
+		9AA2559D28236B12008D7070 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2559E28236B23008D7070 /* Enviroment.swift */,
+				9A3448A028236C8E00269E97 /* EnviromentButton.swift */,
+			);
+			name = Environment;
+			path = Base/Classes/Environment;
 			sourceTree = "<group>";
 		};
 		9AEFEF9B281A9496002C3BE0 /* MapGuide */ = {
@@ -4940,10 +4955,12 @@
 				9AEFEF9D281A94B2002C3BE0 /* MapTypePath.swift in Sources */,
 				5E4A048EEA5625E9944493E8EB949150 /* Base-dummy.m in Sources */,
 				AB783B13EB8FE4091965C73678226BCC /* Config.swift in Sources */,
+				9AA2559F28236B23008D7070 /* Enviroment.swift in Sources */,
 				9AEFEF9F281A94E2002C3BE0 /* MapKitOpen.swift in Sources */,
 				9AEFEF9A281A9415002C3BE0 /* Reuseable.swift in Sources */,
 				170D469532C9BC1F7B781ABCE696077D /* Router.swift in Sources */,
 				C1978C03409B7D267654A0D0F2CE5B59 /* RouterProvider.swift in Sources */,
+				9A3448A128236C8E00269E97 /* EnviromentButton.swift in Sources */,
 				9AA2559C282366F7008D7070 /* DatabaseCache.swift in Sources */,
 				9AC7B70A281BB28D00E35DEE /* HorizonPageLayout.swift in Sources */,
 				9A48C3DA281BC23600A731F2 /* UserDefaultsCache.swift in Sources */,
