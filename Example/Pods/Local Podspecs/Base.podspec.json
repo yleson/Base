@@ -30,6 +30,15 @@
     "WCDB.swift": [
 
     ],
+    "RxSwift": [
+      "6.5.0"
+    ],
+    "RxCocoa": [
+      "6.5.0"
+    ],
+    "RxDataSources": [
+      "5.0.0"
+    ],
     "Moya": [
       "14.0.0"
     ],

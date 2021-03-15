@@ -38,6 +38,10 @@ TODO: Add long description of the pod here.
   s.dependency 'SwiftMediator'
   # 数据库
   s.dependency 'WCDB.swift'
+  # 响应式编程
+  s.dependency 'RxSwift', '6.5.0'
+  s.dependency 'RxCocoa', '6.5.0'
+  s.dependency 'RxDataSources', '5.0.0'
   # 网络请求
   s.dependency 'Moya', '14.0.0'
   # 模型解析
